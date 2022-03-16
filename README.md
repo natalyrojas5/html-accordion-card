@@ -1,4 +1,4 @@
-# FAQ ACORDION
+# FAQ ACCORDION CARD
 
 ## This project is based on one of the [Frontend Mentor](https://www.frontendmentor.io/) challenges.
 
