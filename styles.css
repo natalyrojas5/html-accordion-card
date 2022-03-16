@@ -1,5 +1,7 @@
 :root {
   --bg-primary: hsl(273, 75%, 66%);
+  --bg-primary-blue: hsl(240, 73%, 65%);
+
   --c-divider: hsl(240, 5%, 91%);
   --c-question: hsl(237, 12%, 33%);
   --c-dark-question: hsl(238, 29%, 16%);
@@ -24,6 +26,12 @@ body {
 }
 .bg-main {
   background-color: var(--bg-primary);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    var(--bg-primary),
+    var(--bg-primary-blue) 100%
+  );
 }
 .container-fab {
   background-color: #fff;
